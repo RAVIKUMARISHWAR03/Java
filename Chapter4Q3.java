@@ -23,10 +23,7 @@ public class Chapter4Q3 {
              System.out.println("Sataurday");
              break;
         case 7:
-             System.out.println("Sunday")
-        default:
-             System.out.println(" THIS IS NOT ON THE LIST");
-            
-        }
+             System.out.println("Sunday");}
     }
+    
 }
