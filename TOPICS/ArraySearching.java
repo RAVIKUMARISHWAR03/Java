@@ -12,12 +12,15 @@ public class ArraySearching {
         boolean IsFound = IsFound(Myarr,num);
         if(IsFound){
             System.out.println("YOUR NUMBER IS FOUND IN THE ARRAY");
-        }else {
+        }
+        else {
             System.out.println("YOUR NUMBER IS NOT FOUND IN THE ARRAY");
         }
     }
+    
     public static boolean IsFound(int[] Myarr,int num){
        int index = 0;
+        
        while (index < Myarr.length){
            if (Myarr[index]==num){
             return true;
@@ -27,3 +30,4 @@ public class ArraySearching {
        return false;
     }
 }
+
