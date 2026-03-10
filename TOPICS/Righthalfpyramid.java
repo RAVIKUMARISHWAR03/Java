@@ -5,8 +5,6 @@ public class Righthalfpyramid {
         System.out.println("***");
         System.out.println("**");
         System.out.println("*");
-
-
-
     }
 }
+
